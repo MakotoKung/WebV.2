@@ -9,12 +9,16 @@ var wrapper = document.getElementById('zoomin');
 var bt1 = document.getElementById('b1');
 var bt2 = document.getElementById('b2');
 var bt3 = document.getElementById('b3');
+var hiden = document.getElementById('hidden')
 
-window.onload = function()
-{
+
+window.onload = function(){
    setTimeout(function(){
-    open.classList.add('intro');
+      open.classList.add('intro');
    },2000);
+   setTimeout(function(){
+      hiden.classList.remove('hidden')
+   },4500);
    setTimeout(function(){
     start.classList.add('start');
    },4000);
@@ -45,5 +49,7 @@ window.onload = function()
    bt3.classList.add('bt-zoom3')
   },2000);
 };
+
+
 
 

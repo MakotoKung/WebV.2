@@ -10,8 +10,12 @@
     height: 20%;
     left: 30%;
     top: 150px;
+    
    
    
+}
+.hidden{ 
+    overflow: hidden;
 }
 .intro{
     opacity: 0;
@@ -62,22 +66,25 @@
 
 .bt-zoom{
     animation: zoomin 2s ;
-    
     opacity: 1;
+   
 }
 
 .bt-zoom1{
     animation: zoomin 4s;
     animation-delay: 1s;
+    
 }
 .bt-zoom2{
     animation: zoomin 4s ;
     animation-delay: 1.6s;
+    
 
 }
 .bt-zoom3{
     animation: zoomin 4s ;
     animation-delay: 2s;
+    
 }
 .main{
     max-width: 1920px;
@@ -205,33 +212,44 @@
     height: 200rem;
 }
 
+
+
+
 .button{
     position: relative;
-    max-width: 100%;
-    min-width: 2%;
-    display: grid;
-    right: 25% ;
+    max-width: 23%;
+    min-width: 40px;
+    height: 100px;
+    min-height: 1%;
+    margin-top: 5px;
+    margin: 3px;
+    left: 15% ;
     z-index: 5;
+    align-items: flex-end;
 }
 
-.grid{ 
-    display: grid;
-    grid-template-columns: 200px 200px 200px ;
-}
 .button-1{
     position: relative;
-    max-width: 100%;
-    min-width: 2%;
-    display: grid;
-    right: 25% ;
+    max-width: 23%;
+    min-width: 40px;
+    height: 100px;
+    min-height: 1%;
+    margin-top: 5px;
+    margin: 1px;
+    left: 15% ;
     z-index: 5;
+    align-items: flex-end;
 }
 .button-2{
     position: relative ;
-    max-width: 100%;
-    min-width: 2%;
-    display: grid;
-    right: 25%;
+    max-width: 23%;
+    min-width: 40px;
+    height: 100px;
+    min-height: 1%;
+    margin-top: 5px;
+    margin: 0px;
+    left: 15%;
     z-index: 5;
+    align-items: flex-end;
 
 }
