@@ -228,6 +228,12 @@
     align-items: flex-end;
 }
 
+.button:hover { 
+    
+    transform: scale(2);
+    
+}
+
 .button-1{
     position: relative;
     max-width: 23%;
@@ -239,6 +245,9 @@
     left: 15% ;
     z-index: 5;
     align-items: flex-end;
+}
+.button-1:hover{ 
+
 }
 .button-2{
     position: relative ;
@@ -252,4 +261,7 @@
     z-index: 5;
     align-items: flex-end;
 
+}
+.button-2:hover { 
+    
 }

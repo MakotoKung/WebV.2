@@ -12,6 +12,7 @@ var bt3 = document.getElementById('b3');
 var hiden = document.getElementById('hidden')
 
 
+
 window.onload = function(){
    setTimeout(function(){
       open.classList.add('intro');
