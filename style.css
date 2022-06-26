@@ -275,8 +275,8 @@
     text-align: center;
     align-items: center;
     line-height: 50px;
-    margin-top: 24%;
-    margin-left: 6rem;
+    margin-top: 10%;
+    margin-left: 40%;
     
 
 }
@@ -320,13 +320,13 @@
 }
 .use { 
     position: absolute;
-    
     color: cornflowerblue;
     margin: 5%;
     text-align: center;
     margin-top: 40px;
     font-size: calc(70% + 1 vmin);
     z-index: 6;
+    animation: zoomin 3s;
     
 }
 
