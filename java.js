@@ -10,6 +10,7 @@ var bt1 = document.getElementById('b1');
 var bt2 = document.getElementById('b2');
 var bt3 = document.getElementById('b3');
 var hiden = document.getElementById('hidden')
+var loading = document.getElementById('loading');
 
 
 
@@ -17,6 +18,9 @@ window.onload = function(){
    setTimeout(function(){
       open.classList.add('intro');
    },2000);
+   setTimeout(function(){
+      loading.classList.add('intro'); 
+   },2500);
    setTimeout(function(){
       hiden.classList.remove('hidden')
    },4500);
