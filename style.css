@@ -116,6 +116,7 @@
     transition: .5s;
     display: block;
     
+    
 }
 @media screen and (max-width:1322px){
     .img-BCG{
@@ -317,3 +318,15 @@
 }.L:nth-child(7){
     animation-delay: 1.3s;
 }
+.use { 
+    position: absolute;
+    
+    color: cornflowerblue;
+    margin: 5%;
+    text-align: center;
+    margin-top: 40px;
+    font-size: calc(70% + 1 vmin);
+    z-index: 6;
+    
+}
+
