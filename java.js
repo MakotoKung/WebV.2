@@ -11,6 +11,8 @@ var bt2 = document.getElementById('b2');
 var bt3 = document.getElementById('b3');
 var hiden = document.getElementById('hidden')
 var loading = document.getElementById('loading');
+var header = document.querySelector('.header1');
+var scroll = 95; 
 
 
 
@@ -54,6 +56,17 @@ window.onload = function(){
    bt3.classList.add('bt-zoom3')
   },2000);
 };
+
+window.addEventListener('scroll', scrolldown);
+
+function scrolldown (){
+   if (window.scrollY > scroll){
+      header.classList.add('headertrue');
+   }
+   else{
+      header.classList.remove('headertrue');
+   }
+}
 
 
 
