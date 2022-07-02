@@ -12,7 +12,10 @@ var bt3 = document.getElementById('b3');
 var hiden = document.getElementById('hidden')
 var loading = document.getElementById('loading');
 var header = document.querySelector('.header1');
-var scroll = 95; 
+var scroll = 500; 
+var fadein = document.getElementById('fade');
+var scroll2 = 520;
+console.log(window.scrollY)
 
 
 
@@ -59,14 +62,24 @@ window.onload = function(){
 
 window.addEventListener('scroll', scrolldown);
 
+
 function scrolldown (){
    if (window.scrollY > scroll){
       header.classList.add('headertrue');
+     
    }
    else{
       header.classList.remove('headertrue');
+      
    }
+   if (window.scrollY > scroll2) {
+      fadein.classList.add('fade-in');
+   } else {
+      fadein.classList.remove('fade-in');
+   }
+  
 }
+
 
 
 

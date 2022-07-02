@@ -172,7 +172,32 @@
     height: 100%;
     margin: left;
     display: block;
+    object-fit: cover;   
+}
+.img-BCG2{
+    padding: 100px 30px 20px;
+    width: 80%;
+    height: 100%;
+    margin: left;
+    display: block;
     object-fit: cover;
+    opacity: 0;
+}
+.fade-in { 
+    opacity: 1;
+    animation: sidetop 1s ;
+    
+}
+@keyframes sidetop { 
+    from{
+        transform: translateX(100px);
+    }
+    to{
+        transform: translateX(0px );
+
+    }
+    
+    
     
 }
 .img-unknown{
@@ -332,9 +357,11 @@
     
 }
 .header1{
+    opacity: 0;
     margin: 10px;
 }
 .headertrue{
+    opacity: 1;
     animation: sideleft 1s ;
 }
 @keyframes sideleft { 
@@ -344,5 +371,27 @@
     to {
         transform: translateX(0px);
     }
+}
+@keyframes spin { 
+    0%{ 
+        transform: rotate(0);
+
+    }
+    50%{ 
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+   
+}
+.cir{ 
+    position: relative;
+    width: 8%;
+    height: 10%;
+    right: 40%;
+    bottom: 18rem;
+    animation: spin 40s linear;
+    animation-iteration-count: infinite;
 }
 
