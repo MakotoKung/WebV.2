@@ -252,6 +252,7 @@
 }
 .button-1:hover{ 
 
+    transform: scale(2);
 }
 .button-2{
     position: relative ;
