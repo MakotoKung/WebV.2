@@ -13,9 +13,10 @@ var hiden = document.getElementById('hidden')
 var loading = document.getElementById('loading');
 var header = document.querySelector('.header1');
 var scroll = 500; 
-var fadein = document.getElementById('fade');
 var scroll2 = 520;
-console.log(window.scrollY)
+var fadein = document.getElementById('fade');
+var op0 = document.getElementById('op0');
+
 
 
 
@@ -37,7 +38,10 @@ window.onload = function(){
    },4000);
    setTimeout(function(){
     test2.classList.add('start');
-   },4000);
+   },5000);
+   setTimeout(function(){
+      op0.classList.remove('op0')
+     },4000);
    setTimeout(function(){
     test3.classList.add('start');
    },4000); setTimeout(function(){
@@ -57,7 +61,8 @@ window.onload = function(){
   },2000);
   setTimeout(function(){
    bt3.classList.add('bt-zoom3')
-  },2000);
+  },2000); 
+  
 };
 
 window.addEventListener('scroll', scrolldown);
