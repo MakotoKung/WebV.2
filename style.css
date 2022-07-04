@@ -1,15 +1,13 @@
 .background{
-    background-image: linear-gradient(#110036,#18003a,#270045,#2f0049,#680272,#a10896);
-    position: absolute;
-   
+    background-repeat: repeat;
    
 }
 .logo { 
     position: relative;
     width: 40%;
-    height: 20%;
+    height: 10%;
     left: 30%;
-    top: 150px;
+    top: 600px;
    
       
 
@@ -92,7 +90,7 @@
     margin-inline: 0 auto 0 auto;
 }
 .wrapper{
-    
+    position: relative;
     margin-left: 11% ;
     max-width: 80% ;
     min-width: 10%;
@@ -102,9 +100,11 @@
     border-radius: 1.25rem;
     background-color: #fff;
     transition: .5s;
+    z-index: 98;
     
 }
 .wrapper-in{
+    position: relative;
     max-width: 80%;
     min-width: 10%;
     max-height: 100%;
@@ -115,6 +115,7 @@
     background-color: #fff;
     transition: .5s;
     display: block;
+    z-index: 99;
     
     
 }
@@ -134,10 +135,12 @@
 }
 
 .img-info{
+    position: relative;
     min-width: 10%;
     width: 100%;
     height: 100%;
     margin-left: 0px;
+    z-index: 99;
    
 
 }
@@ -185,15 +188,16 @@
 }
 .fade-in { 
     opacity: 1;
-    animation: sidetop 1s ;
+    animation: sidetop 1.2s ;
+    animation-delay: 0.1s;
     
 }
 @keyframes sidetop { 
     from{
-        transform: translateX(100px);
+        transform: translateY(100px);
     }
     to{
-        transform: translateX(0px );
+        transform: translateY(0px );
 
     }
     
@@ -302,7 +306,7 @@
     text-align: center;
     align-items: center;
     line-height: 50px;
-    margin-top: 10%;
+    margin-top: 30%;
     margin-left: 40%;
     
 
@@ -366,10 +370,10 @@
 }
 @keyframes sideleft { 
     from {
-        transform: translateX(100px);
+        transform: translateY(100px);
     }
     to {
-        transform: translateX(0px);
+        transform: translateY(0px);
     }
 }
 @keyframes spin { 
@@ -386,12 +390,52 @@
    
 }
 .cir{ 
-    position: relative;
-    width: 8%;
-    height: 10%;
-    right: 40%;
-    bottom: 18rem;
+    position: absolute;
+    width: 11%;
+    height: 15%;
+    left: 12%;
+    top: 0px;
     animation: spin 40s linear;
     animation-iteration-count: infinite;
 }
 
+.triangle { 
+    position: relative;
+    width: 50%;
+    height: 20%;
+    top: 400px ;
+    left:  -50px;
+    transform: rotate(20deg);
+    animation: moveup 6s ;
+    animation-iteration-count: infinite;
+    z-index: 100;
+}
+
+@keyframes moveup { 
+    0%{
+        transform: translateY(0px);
+        transform: translateX(20px);
+        
+        
+    }
+    50%{
+        transform: translateY(-30px);
+        
+        
+       
+    }
+    100%{
+        transform: translateY(0px);
+        transform: translateX(20px );
+    
+    }
+}
+.circuit{
+    position: relative;
+    width: 30%;
+    height: 20%;
+    right: 1180px ;
+    top: 800px;
+    z-index: 1;
+   
+}

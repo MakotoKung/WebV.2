@@ -24,6 +24,9 @@ window.onload = function(){
    setTimeout(function(){
       open.classList.add('intro');
    },2000);
+   setTimeout(function remove(){
+      open.remove();
+   },4000);
    setTimeout(function(){
       loading.classList.add('intro'); 
    },2500);
