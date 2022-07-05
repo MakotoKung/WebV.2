@@ -60,7 +60,7 @@
 }
 
 .hidden{ 
-    pointer-events: auto;
+    
     overflow-y: scroll;
     overflow-x: hidden;
     
@@ -235,7 +235,9 @@
     display: block;
     object-fit: cover;
     opacity: 0;
+    
 }
+
 .fade-in { 
     opacity: 1;
     animation: sidetop 1.2s ;
@@ -293,17 +295,31 @@
 
 
 
-
+a{
+    text-decoration: none;
+}
 
 .button{
-    position: absolute;
+    position: relative;
     width: 100px;
-    height: 50px;
     background-color: plum;
-    padding: 20px ;
+    padding: 50px ;
     left: 50px;
+    top: 100px;
+    color: #FFFF;
+    font-size: medium;
+    letter-spacing: 2px;
+    line-height: 80%;
+    border: 2px;
+    border-color: black;
+    border-radius:30px ;
+    font-weight: bolder;
     align-items: center;
     text-align: center;
+    text-decoration: none;
+}
+.text{
+    text-indent: 30px;
 }
 
 .button:hover { 
@@ -313,7 +329,21 @@
 }
 
 .button-1{
-   
+    position: relative;
+    width: 100px;
+    background-color: plum;
+    padding: 50px ;
+    left: 50px;
+    color: #FFFF;
+    font-size: medium;
+    letter-spacing: 2px;
+    line-height: 80%;
+    border: 2px;
+    border-color: black;
+    border-radius:30px ;
+    font-weight: bolder;
+    align-items: center;
+    text-align: center;
 }
 .button-1:hover{ 
 
@@ -389,10 +419,13 @@
     
 }
 .header1{
+    position: relative;
     opacity: 0;
-    margin: 10px;
+    margin: 15px;
     margin-top: 120px;
-    padding-top: 30px;
+    padding: 30px;
+    white-space: nowrap;
+    top: 200px;
 }
 .headertrue{
     opacity: 1;
@@ -437,7 +470,7 @@
     top: 400px ;
     left:  -50px;
     transform: rotate(20deg);
-    animation: moveup 6s ;
+    animation: moveup 4s ;
     animation-iteration-count: infinite;
     z-index: 100;
 }
