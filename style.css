@@ -1,9 +1,11 @@
 .background{
-    background-repeat: repeat;
+    background-image: linear-gradient(#110036,#2f0049,#680272,#a10896);
+    opacity: 1;
+    
    
 }
 .logo { 
-    position: relative;
+    position: fixed;
     width: 40%;
     height: 10%;
     left: 30%;
@@ -58,7 +60,10 @@
 }
 
 .hidden{ 
-    overflow: hidden;
+    pointer-events: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
 }
 .intro{
     opacity: 0;
@@ -285,25 +290,20 @@
     }
 } 
 
-.background{
-    width: 120rem;
-    height: 200rem;
-}
+
 
 
 
 
 .button{
-    position: relative;
-    max-width: 23%;
-    min-width: 40px;
-    height: 100px;
-    min-height: 1%;
-    margin-top: 5px;
-    margin: 3px;
-    left: 15% ;
-    z-index: 5;
-    align-items: flex-end;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background-color: plum;
+    padding: 20px ;
+    left: 50px;
+    align-items: center;
+    text-align: center;
 }
 
 .button:hover { 
@@ -313,16 +313,7 @@
 }
 
 .button-1{
-    position: relative;
-    max-width: 23%;
-    min-width: 40px;
-    height: 100px;
-    min-height: 1%;
-    margin-top: 5px;
-    margin: 1px;
-    left: 15% ;
-    z-index: 5;
-    align-items: flex-end;
+   
 }
 .button-1:hover{ 
 
@@ -330,16 +321,7 @@
 
 }
 .button-2{
-    position: relative ;
-    max-width: 23%;
-    min-width: 40px;
-    height: 100px;
-    min-height: 1%;
-    margin-top: 5px;
-    margin: 0px;
-    left: 15%;
-    z-index: 5;
-    align-items: flex-end;
+    
 
 }
 .button-2:hover { 
@@ -347,7 +329,7 @@
 }
 
 .load { 
-    position: absolute;
+    position: fixed;
     display: flex;
     text-align: center;
     align-items: center;
@@ -409,10 +391,13 @@
 .header1{
     opacity: 0;
     margin: 10px;
+    margin-top: 120px;
+    padding-top: 30px;
 }
 .headertrue{
     opacity: 1;
     animation: sideleft 1s ;
+    
 }
 @keyframes sideleft { 
     from {
@@ -483,5 +468,25 @@
     right: 1180px ;
     top: 800px;
     z-index: 1;
-   
 }
+.building { 
+    position: absolute;
+    width: 10%;
+    height: 45% ;
+    right: 89.5%;
+    top: 127rem;
+    padding-top: 0px;
+    
+    z-index: 100;
+
+}
+.building2{
+    position: absolute;
+    width: 6%;
+    height: 25%;
+    right: 82.3%;
+    top: 130rem;
+    padding-top: 0px;
+    z-index: 100;
+}
+

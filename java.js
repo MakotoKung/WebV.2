@@ -31,7 +31,8 @@ window.onload = function(){
       loading.classList.add('intro'); 
    },2500);
    setTimeout(function(){
-      hiden.classList.remove('hidden')
+      hiden.classList.add('background');
+      hiden.classList.remove('hiden');
    },4500);
    setTimeout(function(){
     start.classList.add('start');
