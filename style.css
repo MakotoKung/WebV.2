@@ -233,7 +233,7 @@
     object-fit: cover;   
 }
 .img-BCG2{
-    padding: 100px 30px 20px;
+    padding: 180px 30px 20px;
     width: 80%;
     height: 100%;
     margin: left;
@@ -346,9 +346,29 @@ a{
     border: 2px;
     border-color: black;
     border-radius:30px ;
+    padding: 20px;
     font-weight: bolder;
     align-items: center;
     text-align: center;
+}
+.button-1-test {
+    position: relative;
+    width: 100px;
+    background-color: plum;
+    padding: 50px ;
+    left: 700px;
+    top: 200px;
+    color: #FFFF;
+    font-size: large;
+    letter-spacing: 2px;
+    line-height: 80%;
+    border: 2px;
+    border-color: black;
+    border-radius:30px ;
+    font-weight: bolder;
+    text-align: center;
+    z-index: 100;
+   
 }
 .button-1:hover{ 
 
@@ -428,9 +448,9 @@ a{
     position: relative;
     opacity: 0;
     margin: 15px;
-    margin-top: 120px;
+    margin-top: 0px;
     padding: 30px;
-    white-space: nowrap;
+   
     top: 200px;
 }
 .headertrue{
