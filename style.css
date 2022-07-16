@@ -334,6 +334,7 @@ a{
 }
 .text{
     text-indent: 30px;
+    
 }
 
 .button:hover { 
@@ -604,5 +605,6 @@ a{
     right: 900px;
     z-index: 1;
 }
+
 
 
