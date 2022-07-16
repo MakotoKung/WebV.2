@@ -286,6 +286,7 @@ a{
 }
 .text{
     text-indent: 30px;
+    
 }
 
 .button:hover { 
@@ -570,6 +571,7 @@ a{
      
 
 
+<<<<<<< HEAD
     }
 
     .load{
@@ -713,3 +715,5 @@ a{
         line-height: 20%;
     }
 }
+=======
+>>>>>>> da755b794155cf23a1c38e5c6a19d285b9e3161a
