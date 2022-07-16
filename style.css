@@ -372,6 +372,25 @@ a{
     text-align: center;
     z-index: 999999;
 }
+.button-cre{
+    position: fixed;
+    width: 6.25rem;
+    top: 46.875rem;
+    background-color: plum;
+    padding: 50px ;
+    left: 83%;
+    color: #FFFF;
+    font-size: medium;
+    letter-spacing: 2px;
+    line-height: 80%;
+    border-radius:30px ;
+    padding: 20px;
+    font-weight: bolder;
+    align-items: center;
+    text-align: center;
+    z-index: 999999;
+}
+
 
 .load { 
     position: fixed;
@@ -538,6 +557,15 @@ a{
 
     }
 }
+@keyframes upbutton { 
+    0%{
+        transform: translateY(200px);
+        animation-delay: 1.6s;
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
 
 .button-left{
     animation: leftbutton 4.5s ;
@@ -547,6 +575,10 @@ a{
 .button-right { 
     animation: rightbutton 4.5s;
     animation-delay: 1.5s;
+}
+.button-up{
+    animation: upbutton 5s;
+    animation-delay: 2s;
 }
 .circuit{
     position: relative;

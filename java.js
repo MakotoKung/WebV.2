@@ -17,6 +17,7 @@ var scroll2 = 520;
 var fadein = document.getElementById('fade');
 var op0 = document.getElementById('op0');
 var left = document.getElementById('left');
+var left1 = document.getElementById('left1');
 var right = document.getElementById('right');
 
 
@@ -70,6 +71,9 @@ window.onload = function(){
   },2000); 
   setTimeout(function(){
    left.classList.add('button-left')
+  },2000); 
+   setTimeout(function(){
+   left1.classList.add('button-up')
   },2000); 
   setTimeout(function(){
    right.classList.add('button-right')
