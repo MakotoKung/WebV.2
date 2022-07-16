@@ -211,7 +211,7 @@
 
 .img-info h1{
     padding: 20px 30px 20px;
-    font-family: 'Mitr', sans-serif;
+    font-family: 'Chonburi', cursive;
     font-size: calc(60% + 0.8 vmin);
     color: black;
     line-height: 1.2;
@@ -226,10 +226,10 @@
 }
 .img-info p {
     padding: 0px 30px 20px;
-    font-family: 'Mitr', sans-serif;
+    font-family: 'Chonburi', cursive;
     font-size: calc(60% + 0.8vmin);
     color:black;
-    line-height: 24px;
+    line-height: 20px;
     
     
 }
