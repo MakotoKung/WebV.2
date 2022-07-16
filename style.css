@@ -24,54 +24,6 @@
     
     
 }
-@media screen and (max-width: 1297px)
-{
-    .logo{
-        
-        position: fixed;
-        width: 50%;
-        height: 50%;
-        top:10%;
-        left: 20%;
-        padding: 10px;
-        
-
-
-    }
-
-    .load{
-        position: fixed;
-        width: 70%;
-        height: 5%;
-        top: 10%;
-        left: 2%;
-        padding: 10px;
-    }
-}
-@media screen and (max-width:689px)
-{
-    .logo{
-        
-        position: fixed;
-        width: 60%;
-        height: 50%;
-        top: 20%;
-        left: 20%;
-        padding: 10px;
-        
-
-    }
-
-    .load{
-        position: fixed;
-        width: 70%;
-        height: 50%;
-        top: 30%;
-        left: -25%;
-        padding: 10px;
-    }
-  
-}
 
 .hidden{ 
     
@@ -385,8 +337,8 @@ a{
 }
 .button-busi{
     position: fixed;
-    width: 100px;
-    top: 555px;
+    width: 6.25rem;
+    top: 34.688rem;
     background-color: plum;
     padding: 50px ;
     left: 83%;
@@ -403,8 +355,8 @@ a{
 }
 .button-com{
     position: fixed;
-    width: 100px;
-    top: 650px;
+    width: 6.25rem;
+    top: 40.625rem;
     background-color: plum;
     padding: 50px ;
     left: 83%;
@@ -605,4 +557,159 @@ a{
     z-index: 1;
 }
 
+@media screen and (max-width: 1307px)
+{
+    .logo{
+        
+        position: fixed;
+        width: 50%;
+        height: 50%;
+        top:10%;
+        left: 20%;
+        padding: 2%;
+     
 
+
+    }
+
+    .load{
+        position: fixed;
+        width: 70%;
+        height: 5%;
+        top: 10%;
+        left: -10%;
+        padding: 5%;
+    }
+
+    .button-busi{
+        position: fixed;
+        width: 10%;
+        top: 5%;
+        left: 20%;
+        font-size: 70%;
+    }
+    .button-com{
+        position: fixed;
+        width: 10%;
+        top: 5%;
+        left: 68%;
+        font-size: 70%;
+    }
+    
+
+
+
+
+
+}
+
+@media screen and (max-width: 1085px)
+{
+    .logo{
+        
+        position: fixed;
+        width: 50%;
+        height: 50%;
+        top:10%;
+        left: 20%;
+        padding: 2%;
+     
+
+
+    }
+
+    .load{
+        position: fixed;
+        width: 70%;
+        height: 5%;
+        top: 30%;
+        left: -15%;
+        padding: 5%;
+    }
+
+}
+
+
+
+
+@media screen and (max-width:750px)
+{
+    .logo{
+        
+        position: fixed;
+        width: 60%;
+        height: 50%;
+        top: 20%;
+        left: 20%;
+        padding: 10px;
+        
+
+    }
+
+    .load{
+        position: fixed;
+        width: 70%;
+        height: 50%;
+        top: 30%;
+        left: -20%;
+        padding: 10px;
+    }
+  
+
+    .button-busi{
+        position: fixed;
+        width: 10%;
+        top: 5%;
+        left: 20%;
+        font-size: 60%;
+    }
+    .button-com{
+        position: fixed;
+        width: 10%;
+        top: 5%;
+        left: 68%;
+        font-size: 50%;
+    }
+}
+
+@media screen and (max-width:409px)
+{
+    .logo{
+        
+        position: fixed;
+        width: 60%;
+        height: 50%;
+        top: 20%;
+        left: 20%;
+        padding: 10px;
+        
+
+    }
+
+    .load{
+        position: fixed;
+        width: 70%;
+        height: 50%;
+        top: 45%;
+        left: -20%;
+        padding: 10px;
+    }
+
+    .button-busi{
+        position: fixed;
+        width: 15%;
+        top: 2%;
+        left: 20%;
+        font-size: 60%;
+        line-height: 20%;
+    
+    }
+    .button-com{
+        position: fixed;
+        width: 15%;
+        top: 2%;
+        left: 65%;
+        font-size: 55%;
+        line-height: 20%;
+    }
+}
