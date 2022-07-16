@@ -18,6 +18,8 @@
     width: 20%;
     height: 10%;
     left: 40%;
+    animation-delay: 3s;
+    animation: fade_in 2s ;
 
     
     
@@ -378,7 +380,6 @@ a{
    
 }
 .button-1:hover{ 
-
     transform: scale(2);
 
 }
@@ -547,6 +548,52 @@ a{
         transform: translateX(20px );
     
     }
+}
+@keyframes leftbutton{
+    0%{
+        transform: translateX(0px);
+        animation-delay: 0.5s;
+    }
+    40%{
+        transform: translateX(100px);
+    }
+    60%{
+        transform: translateX(200px);
+        animation-delay: 0.5s;
+    }
+   
+    100%{
+        transform: translateX(0px);
+
+    }
+}
+@keyframes rightbutton { 
+    0%{
+        transform: translateX(0px);
+        animation-delay: 0.5s;
+    }
+    40%{
+        transform: translateX(-100px);
+    }
+    60%{
+        transform: translateX(-200px);
+        animation-delay: 0.5s;
+    }
+   
+    100%{
+        transform: translateX(0px);
+
+    }
+}
+
+.button-left{
+    animation: leftbutton 4.5s ;
+    animation-delay: 1.5s;
+
+}
+.button-right { 
+    animation: rightbutton 4.5s;
+    animation-delay: 1.5s;
 }
 .circuit{
     position: relative;
