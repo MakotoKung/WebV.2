@@ -558,7 +558,7 @@ a{
     z-index: 1;
 }
 
-@media screen and (max-width: 1307px)
+@media screen and (max-width: 1440px)
 {
     .logo{
         
@@ -571,7 +571,6 @@ a{
      
 
 
-<<<<<<< HEAD
     }
 
     .load{
@@ -634,7 +633,7 @@ a{
 
 
 
-@media screen and (max-width:750px)
+@media screen and (max-width:768px)
 {
     .logo{
         
@@ -715,5 +714,3 @@ a{
         line-height: 20%;
     }
 }
-=======
->>>>>>> da755b794155cf23a1c38e5c6a19d285b9e3161a
