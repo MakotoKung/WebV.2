@@ -17,8 +17,9 @@ var scroll2 = 520;
 var fadein = document.getElementById('fade');
 var op0 = document.getElementById('op0');
 var left = document.getElementById('left');
-var left1 = document.getElementById('left1');
+var up = document.getElementById('up');
 var right = document.getElementById('right');
+var tri = document.getElementById('tri');
 
 
 
@@ -40,6 +41,9 @@ window.onload = function(){
    setTimeout(function(){
     start.classList.add('start');
    },4000);
+   setTimeout(function(){
+      tri.classList.add('fade_in')
+   },5000);
    setTimeout(function(){
     start.classList.remove('op0');
    },4000);
@@ -73,11 +77,15 @@ window.onload = function(){
    left.classList.add('button-left')
   },2000); 
    setTimeout(function(){
-   left1.classList.add('button-up')
+   up.classList.add('button-up')
   },2000); 
   setTimeout(function(){
    right.classList.add('button-right')
-  },2000); 
+  },2000);
+  setTimeout(function(){
+   tri.classList.add('fade_in')
+  },5000);
+  
 };
 
 window.addEventListener('scroll', scrolldown);

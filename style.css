@@ -1,6 +1,7 @@
 .background{
     background-image: linear-gradient(#110036,#2f0049,#680272,#a10896);
     opacity: 1;
+
     
    
 }
@@ -30,11 +31,18 @@
     overflow-y: scroll;
     overflow-x: hidden;
     
+    
 }
 .intro{
     opacity: 0;
     pointer-events: none;
     animation: fade_out 2s;
+}
+
+.ref{
+    font-size: 12px;
+    margin-left: 80px;
+    padding: 5px;
 }
 @keyframes fade_out {
     from{
@@ -131,6 +139,8 @@
     background-color: #fff;
     transition: .5s;
     display: block;
+    font-size: 26px;
+    letter-spacing: 2px;
     z-index: 99;
     
     
@@ -141,9 +151,11 @@
     }
     .wrapper{
         width: 100%;
+        
     }
     .wrapper-in{
         width: 100%;
+       
     }
     .img-info{
         width: 100%;
@@ -166,7 +178,7 @@
     font-family: 'Chonburi', cursive;
     font-size: calc(60% + 0.8 vmin);
     color: black;
-    line-height: 1.2;
+    line-height: 2;
 }
 
 .img-info h2{
@@ -174,19 +186,19 @@
     font-family: 'Mitr', sans-serif;
     font-size: 30px;
     color: rgb(162, 0, 0);
-    line-height: 1.2;
+    line-height: 2;
 }
 .img-info p {
     padding: 0px 30px 20px;
     font-family: 'Chonburi', cursive;
     font-size: calc(60% + 0.8vmin);
     color:black;
-    line-height: 20px;
+    line-height: 1.5;
     
     
 }
 .img-BCG{
-    padding: 100px 30px 20px;
+    padding: 50px 30px 20px;
     width: 80%;
     height: 100%;
     margin: left;
@@ -289,11 +301,6 @@ a{
     
 }
 
-.button:hover { 
-    
-    transform: scale(2);
-    
-}
 
 .button-1{
     position: relative;
@@ -389,6 +396,15 @@ a{
     align-items: center;
     text-align: center;
     z-index: 999999;
+}
+.button-busi:hover{
+    background-color: darkviolet;
+}
+.button-com:hover{
+    background-color: darkviolet;
+}
+.button-cre:hover{
+    background-color: darkviolet;
 }
 
 
@@ -659,6 +675,17 @@ a{
         left: -15%;
         padding: 5%;
     }
+    .button-busi{
+        left: 80%;
+    }
+    .button-com{
+        left: 80%;
+        top: 15%;
+    }
+    .button-cre{
+        top: 25%;
+        left: 80%;
+    }
 
 }
 
@@ -683,8 +710,8 @@ a{
         position: fixed;
         width: 70%;
         height: 50%;
-        top: 30%;
-        left: -20%;
+        top: 20%;
+        left: -15%;
         padding: 10px;
     }
   
@@ -693,15 +720,31 @@ a{
         position: fixed;
         width: 10%;
         top: 5%;
-        left: 20%;
-        font-size: 60%;
+        left: 78%;
+        font-size: 14px;
+        text-indent: -5px;
     }
     .button-com{
         position: fixed;
         width: 10%;
-        top: 5%;
-        left: 68%;
-        font-size: 50%;
+        top: 11.5%;
+        left: 78%;
+        font-size: 12px;
+        text-indent: -15px;
+    }
+    .button-cre{
+        position: fixed;
+        width: 10%;
+        top: 18%;
+        left: 78%;
+        font-size: 14px;
+        text-indent: -7px;
+        
+
+    }
+    .img-info h1{
+        font-size: 22px;
+        line-height: 0.9;
     }
 }
 
@@ -730,19 +773,36 @@ a{
 
     .button-busi{
         position: fixed;
-        width: 15%;
+        width: 9%;
         top: 2%;
-        left: 20%;
+        left: 75%;
         font-size: 60%;
         line-height: 20%;
     
     }
     .button-com{
         position: fixed;
-        width: 15%;
-        top: 2%;
-        left: 65%;
+        width: 9%;
+        top: 10%;
+        left: 75%;
+        font-size: 10px;
+        line-height: 20%;
+        text-indent: -17px;
+    }
+    .button-cre{
+        position: fixed;
+        width: 9%;
+        top: 20%;
+        left: 75%;
         font-size: 55%;
         line-height: 20%;
+    }
+    .img-info h1{
+        font-size: 18px;
+        line-height: 1;
+    }
+    .img-info p{
+        text-indent: 5px;
+        font-size: 14px;
     }
 }
